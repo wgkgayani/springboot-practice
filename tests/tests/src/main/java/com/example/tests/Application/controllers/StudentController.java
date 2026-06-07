@@ -13,7 +13,7 @@ public class StudentController {
         return "Student List";
     }
 
-    @PostMapping("/list")
+    @PostMapping("/add")
     public String addStudent(){
         return "Student Added";
     }
